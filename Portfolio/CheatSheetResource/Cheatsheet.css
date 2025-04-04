@@ -1,0 +1,38 @@
+h1 {
+    
+    color: orangered; /* Dark blue */
+    font-size: 2.5em; /* Font size for h1 */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    color: darkcyan; /* Dark cyan */
+    font-size: 2em; /* Font size for h2 */
+    margin-top: 20px; /* Space above the h2 */
+    margin-bottom: 10px; /* Space below the h2 */
+}
+
+thead {
+    background-color: #f2f2f2; /* Light gray background for the header */
+    color: darkblue; /* Dark blue text for the header */
+    font-weight: bold; /* Bold text for the header */
+}
+
+td, th {
+    padding: 10px; /* Padding inside table cells */
+    border: 1px solid #ddd; /* Light gray border for table cells */
+    text-align: left; /* Left align the text in the cells */
+}
+
+th {
+    /* Additional styles for the header cells */
+    background-color: #4CAF50; /* Green background for header cells */
+    color: white; /* White text for header cells */
+}
+
+td {
+    /* Additional styles for the data cells */
+    background-color: aliceblue; /* Light gray background for data cells */
+    color: #c24747; /* Dark text for data cells */
+}
