@@ -1,9 +1,11 @@
+/* Styles for Main header and other elements */
 h1 {
     
-    color: orangered; /* Dark blue */
+    color: orangered; /* Orangered for the main heading */
     font-size: 2.5em; /* Font size for h1 */
     text-align: center; /* Center align the heading */
     margin-bottom: 20px; /* Space below the heading */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -11,8 +13,9 @@ h2 {
     font-size: 2em; /* Font size for h2 */
     margin-top: 20px; /* Space above the h2 */
     margin-bottom: 10px; /* Space below the h2 */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* Styles for table componenets */
 thead {
     background-color: #f2f2f2; /* Light gray background for the header */
     color: darkblue; /* Dark blue text for the header */
@@ -20,6 +23,7 @@ thead {
 }
 
 td, th {
+    font-family:Arial, Helvetica, sans-serif;
     padding: 10px; /* Padding inside table cells */
     border: 1px solid #ddd; /* Light gray border for table cells */
     text-align: left; /* Left align the text in the cells */
@@ -33,6 +37,17 @@ th {
 
 td {
     /* Additional styles for the data cells */
-    background-color: aliceblue; /* Light gray background for data cells */
+    background-color: aliceblue; /* Light blue background for data cells */
     color: #c24747; /* Dark text for data cells */
+}
+/* Styling for the credits */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text for the footer */
+    text-align: center; /* Center align the footer text */
+    padding: 10px; /* Padding inside the footer */
+    position: static; /* Fixed position at the bottom of the page */
+    bottom: 0; /* Align to the bottom of the page */
+    width: 100%; /* Full width of the footer */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
