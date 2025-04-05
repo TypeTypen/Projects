@@ -1,6 +1,6 @@
 /* Lets style Her page! Starting at the top of the page, we will add some basic styles for the body and then move on to other elements. */
 header {
-    background-color: plum; /* Plum background color header for visibility */
+    background-color: rgb(240, 212, 240); /* Plum background color header for visibility */
     color: white; /* White text for contrast against the blue background */
     padding: 10px 0; /* Padding around the header for spacing */
     text-align: center; /* Center the header text */
@@ -21,5 +21,11 @@ body {
 }
 
 #main {
-    color: black;
+    color: rgb(223, 188, 35);
 }
+
+a {
+    color: #ff1ef4; /* Dodger blue for links to make them stand out */
+    text-decoration: underline; /* underline all links */
+}
+
