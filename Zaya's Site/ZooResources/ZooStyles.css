@@ -29,3 +29,7 @@ a {
     text-decoration: underline; /* underline all links */
 }
 
+a:hover {
+    color: #38071f; /* Change link color on hover for interactivity */
+    text-decoration: none; /* Remove underline on hover for a cleaner look */
+}
