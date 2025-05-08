@@ -2,11 +2,19 @@
 /* Header */
 h1{
     font-size: 2em;
-    color: #db1616;
+    color: #439b52;
     border: 4px solid #333;
     padding: 10px;
     margin: 20px 0;
   
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+  }
+
   }
   /* Navigation */
   /* Main content */
