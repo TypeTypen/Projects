@@ -79,6 +79,60 @@ p  {
     padding: 10px;
     border: #333 solid 2px;
 }
+.display-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+    border: #333 solid 2px;
+    padding: 10px;
+}
+.display-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border: #333 solid 2px;
+    padding: 10px;
+}
+.display-inline {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: #333 solid 2px;
+}
+.display-table {
+    display: table;
+    width: 25%;
+    margin: 20px 0;
+    border: #333 solid 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.th,td {
+    display: table-cell;
+    padding: 50px;
+    border: #333 solid 2px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.display-video {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 50px;
+}
+.display-audio {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 50px;
+}
 #arial {
     font-family: Arial, sans-serif;
     font-size: 1.2em;
@@ -106,4 +160,35 @@ p  {
     font-size: 20px;
     color: #333;
 }
+#italic {
+    font-style: italic;
+    color: #333;
+}
+#bold {
+    font-weight: 600;
+    color: #333;
+}
+#bolder {
+    font-weight: 900;
+    color: #333;
+}
+#underline {
+    text-decoration: underline;
+    color: #333;
+}
+#line-through {
+    text-decoration: line-through;
+    color: #333;
+}
+
 /* Footer */
+.footer p {
+    border: none;
+    background-color: #ffffff;
+    color: rgb(255, 188, 4);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
