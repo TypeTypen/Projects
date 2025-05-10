@@ -2,7 +2,7 @@
 /* Headers */
 h1{
     font-size: 2em;
-    color: #439b52;
+    color: #1fc250;
   }
 
   h2 {
@@ -132,6 +132,11 @@ p  {
     width: 100%;
     margin: 20px 0;
     padding: 50px;
+}
+.display-list, #none {
+    border: none;
+    display: list-item;
+    
 }
 #arial {
     font-family: Arial, sans-serif;
